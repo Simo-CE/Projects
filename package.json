@@ -788,7 +788,8 @@
     "yocto-queue": "^0.1.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -799,5 +800,8 @@
   "bugs": {
     "url": "https://github.com/Simo-CE/Projects/issues"
   },
-  "homepage": "https://github.com/Simo-CE/Projects#readme"
+  "homepage": "https://github.com/Simo-CE/Projects#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
