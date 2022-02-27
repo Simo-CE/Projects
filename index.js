@@ -1,10 +1,7 @@
 const http = require("http");
 const path = require("path");
 const fs = require("fs");
-/* import { createServer } from "https";
-import { join, extname as _extname } from "path";
-import fs from "fs";
- */
+
 const server = http.createServer((req, res) => {
     /* if (req.url === "/") {
         fs.readFile(path.join(__dirname, "public", "index.html"), (err, content) => {
