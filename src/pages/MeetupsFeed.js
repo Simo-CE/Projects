@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 const MeetupsFeed = () => {
 
     const [isLoading, setIsLoading] = useState(true);
-    const [loaded, setLoaded] = useState(true);
+    const [loaded, setLoaded] = useState([]);
 
     useEffect(() => {
         setIsLoading(true);
@@ -21,7 +21,7 @@ const MeetupsFeed = () => {
                     meetups.push(meetup);
                 }
                 setIsLoading(false);
-                setLoaded(data);
+                setLoaded(meetups);
             })
     }, []);
 
