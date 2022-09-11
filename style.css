@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.male {
+    border: 1px cyan solid;
+    background-color: cyan;
+}
+
+.female {
+    border: 1px pink solid;
+    background-color: pink;
+}
+
+button {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
