@@ -1,9 +1,3 @@
 # Projects
 
-## Frontend
-
-```
-ReactJs Meetups SPA
-```
-
-## Backend
+### A series of random project for learning & exploring new technologies purposes
